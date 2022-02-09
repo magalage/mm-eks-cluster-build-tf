@@ -81,7 +81,7 @@ resource "aws_launch_template" "mm_eks_launch_template" {
     }
   }
 
-  image_id = "ami-0a0d313506d35fec9"
+  image_id = "ami-0d6c8b2a8562eba37"
   instance_type = "t3.medium"
   user_data = base64encode(<<-EOF
 MIME-Version: 1.0
